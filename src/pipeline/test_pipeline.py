@@ -46,6 +46,7 @@ class CustomData:
                 "writing_score":[self.writing_score]
 
             }
+            print(custom_data_input_dict)
 
             return pd.DataFrame(custom_data_input_dict)
         except Exception as e:
